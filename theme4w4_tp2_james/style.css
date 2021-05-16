@@ -695,6 +695,7 @@ textarea {
 
 .site-footer {
   grid-area: footer;
+  margin-top: 10rem;
 }
 
 .no-sidebar .site {
