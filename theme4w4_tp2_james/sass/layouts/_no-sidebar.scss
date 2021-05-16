@@ -1,0 +1,27 @@
+.no-sidebar {
+	.site {
+		display: grid;
+		/*grid-template-columns: auto ($size__site-sidebar);*/
+		grid-template-columns: 80% 20%;
+		grid-template-areas:
+			"header header"
+			"main main"
+			"footer footer";
+	}
+}
+
+/*
+#page .site (conteneur de la page)
+	#masthead  .site-header (entete de la page)
+		.site-branding
+			.site-title
+			.site-description
+		#site-nagigation .main-navigation	
+	#primary .site-main (section principale de la page)
+	#colophon .site-footer	
+*/
+
+.site-branding, #primary, #colophon {
+	margin-left : 3rem;
+}
+
