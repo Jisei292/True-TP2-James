@@ -695,6 +695,7 @@ textarea {
 
 .site-footer {
   grid-area: footer;
+  background-color: gray;
   margin-top: 10rem;
 }
 
@@ -1516,10 +1517,6 @@ La barre du millieu
 .site-footer {
   width: 1000px;
   height: 1000px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
 }
 
 /* local formulaire
