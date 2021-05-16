@@ -1516,7 +1516,6 @@ La barre du millieu
   width: 1000px;
   height: 1000px;
   display: flex;
-  flex-direction: row;
 }
 
 /* local formulaire
