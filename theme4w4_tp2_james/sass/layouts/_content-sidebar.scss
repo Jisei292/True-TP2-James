@@ -33,10 +33,7 @@
 
 .site-footer {
 	grid-area: footer;
-	background-color: gray;
 	margin-top: 10rem;
-	display : flex;
-    flex-direction: column-reverse;
 }
 
 @import "no-sidebar";

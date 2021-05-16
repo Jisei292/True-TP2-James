@@ -695,10 +695,7 @@ textarea {
 
 .site-footer {
   grid-area: footer;
-  background-color: gray;
   margin-top: 10rem;
-  display: flex;
-  flex-direction: column-reverse;
 }
 
 .no-sidebar .site {
@@ -1517,8 +1514,13 @@ La barre du millieu
 /* local Footer
 --------------------------------------------- */
 .site-footer {
-  width: 1000px;
-  height: 1000px;
+  width: 100%;
+}
+
+.site-footer .widget-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 /* local formulaire

@@ -1,8 +1,10 @@
 .site-footer{
 
-    width: 1000px;
-    height: 1000px;
+    width: 100%;
     
-    
-    
+    .widget-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }

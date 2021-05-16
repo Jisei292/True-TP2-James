@@ -12,7 +12,7 @@
 ?>
 <!-- footer calendrier -->
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
+		<div class="widget-footer">
 			<?php if (is_active_sidebar( 'footer-1' )): ?>
 			<?php dynamic_sidebar( 'footer-1' ); ?>
 			<?php endif ?>
