@@ -4,6 +4,6 @@
 - admin
 Remettre sur LEA: Un fichier texte contenant 
 deux liens:
--https://github.com/Jisei292/4w4_TP2_James (github) & http://localhost/4w4-3/
+-https://github.com/Jisei292/True-TP2-James (github) & http://localhost/4w4-3/
 (site webdev)
 -https://e1926527.webdev.cmaisonneuve.qc.ca/4w4/
